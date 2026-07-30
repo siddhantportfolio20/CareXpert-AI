@@ -1,0 +1,641 @@
+{
+  "users": [
+    {
+      "id": "usr-admin-1",
+      "name": "Dr. Eleanor Vance (Admin)",
+      "email": "admin@carexpert.ai",
+      "role": "Admin",
+      "phone": "+1 (555) 000-1111",
+      "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&auto=format&fit=crop&q=80",
+      "createdAt": "2026-07-29T13:19:17.986Z"
+    },
+    {
+      "id": "usr-doc-1",
+      "name": "Dr. Marcus Thorne",
+      "email": "doctor@carexpert.ai",
+      "role": "Doctor",
+      "phone": "+91 11 2658 9000",
+      "avatar": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&auto=format&fit=crop&q=80",
+      "specialization": "Cardiology",
+      "experienceYears": 14,
+      "consultationFee": 800,
+      "qualification": "MD, DM (Cardiology) - AIIMS New Delhi",
+      "clinicAddress": "Ansari Nagar, Sri Aurobindo Marg",
+      "city": "New Delhi",
+      "latitude": 28.5672,
+      "longitude": 77.21,
+      "hospitalId": "hosp-1",
+      "hospitalName": "AIIMS New Delhi",
+      "bio": "Senior Cardiologist specializing in preventive heart health, hypertension, and interventional cardiac care.",
+      "rating": 4.9,
+      "reviewsCount": 128,
+      "availability": {
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri"
+        ],
+        "timeSlots": [
+          "09:00 AM",
+          "10:30 AM",
+          "02:00 PM",
+          "03:30 PM",
+          "05:00 PM"
+        ]
+      },
+      "isVerified": true,
+      "createdAt": "2026-07-29T13:19:17.986Z"
+    },
+    {
+      "id": "usr-doc-2",
+      "name": "Dr. Sarah Jenkins",
+      "email": "sarah.jenkins@carexpert.ai",
+      "role": "Doctor",
+      "phone": "+91 22 2417 8888",
+      "avatar": "https://images.unsplash.com/photo-1594824813566-78a983b632fa?w=400&auto=format&fit=crop&q=80",
+      "specialization": "Oncology",
+      "experienceYears": 12,
+      "consultationFee": 1000,
+      "qualification": "MD, MCh (Surgical Oncology) - Tata Memorial",
+      "clinicAddress": "Dr. E Borges Road, Parel",
+      "city": "Mumbai",
+      "latitude": 19.0033,
+      "longitude": 72.8427,
+      "hospitalId": "hosp-3",
+      "hospitalName": "Tata Memorial Hospital",
+      "bio": "Renowned Surgical Oncologist specializing in minimally invasive tumor surgery and chemotherapy protocols.",
+      "rating": 4.8,
+      "reviewsCount": 94,
+      "availability": {
+        "days": [
+          "Mon",
+          "Wed",
+          "Fri"
+        ],
+        "timeSlots": [
+          "10:00 AM",
+          "11:30 AM",
+          "02:30 PM",
+          "04:00 PM"
+        ]
+      },
+      "isVerified": true,
+      "createdAt": "2026-07-29T13:19:17.986Z"
+    },
+    {
+      "id": "usr-doc-3",
+      "name": "Dr. Rajesh Sharma",
+      "email": "rajesh.sharma@carexpert.ai",
+      "role": "Doctor",
+      "phone": "+91 80 2502 5555",
+      "avatar": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=400&auto=format&fit=crop&q=80",
+      "specialization": "Neurology",
+      "experienceYears": 15,
+      "consultationFee": 900,
+      "qualification": "MD, DM (Neurology) - NIMHANS",
+      "clinicAddress": "98 HAL Old Airport Road, Kodihalli",
+      "city": "Bengaluru",
+      "latitude": 12.9583,
+      "longitude": 77.6484,
+      "hospitalId": "hosp-6",
+      "hospitalName": "Manipal Hospital Bengaluru",
+      "bio": "Chief Neurologist specializing in stroke management, epilepsy, and neuro-rehabilitation.",
+      "rating": 4.9,
+      "reviewsCount": 110,
+      "availability": {
+        "days": [
+          "Tue",
+          "Thu",
+          "Sat"
+        ],
+        "timeSlots": [
+          "09:00 AM",
+          "11:00 AM",
+          "01:30 PM",
+          "03:00 PM"
+        ]
+      },
+      "isVerified": true,
+      "createdAt": "2026-07-29T13:19:17.986Z"
+    },
+    {
+      "id": "usr-pat-1",
+      "name": "Alex Johnson",
+      "email": "patient@carexpert.ai",
+      "role": "Patient",
+      "phone": "+1 (555) 777-8888",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80",
+      "address": "123 Pine St, San Francisco, CA",
+      "gender": "Male",
+      "age": 34,
+      "bloodGroup": "O+",
+      "medicalHistory": [
+        "Mild asthma diagnosed in 2020",
+        "Hypertension history"
+      ],
+      "existingDiseases": [
+        "Seasonal Allergies"
+      ],
+      "createdAt": "2026-07-29T13:19:17.986Z"
+    },
+    {
+      "id": "usr-pat-2",
+      "name": "Emily Davis",
+      "email": "emily.davis@example.com",
+      "role": "Patient",
+      "phone": "+1 (555) 888-9999",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&auto=format&fit=crop&q=80",
+      "address": "456 Oak Lane, Palo Alto, CA",
+      "gender": "Female",
+      "age": 28,
+      "bloodGroup": "A+",
+      "medicalHistory": [
+        "Frequent migraines"
+      ],
+      "existingDiseases": [
+        "Thyroid deficiency"
+      ],
+      "createdAt": "2026-07-29T13:19:17.986Z"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "apt-1",
+      "patientId": "usr-pat-1",
+      "patientName": "Alex Johnson",
+      "patientEmail": "patient@carexpert.ai",
+      "doctorId": "usr-doc-1",
+      "doctorName": "Dr. Marcus Thorne",
+      "doctorSpecialization": "Cardiology",
+      "hospitalName": "CareXpert Central Medical Center",
+      "date": "2026-07-30",
+      "timeSlot": "10:30 AM",
+      "status": "Accepted",
+      "reason": "Routine cardiac checkup and blood pressure review",
+      "symptoms": "Occasional tightness in chest after strenuous jogging",
+      "fee": 150,
+      "createdAt": "2026-07-29T13:19:17.986Z"
+    },
+    {
+      "id": "apt-2",
+      "patientId": "usr-pat-1",
+      "patientName": "Alex Johnson",
+      "patientEmail": "patient@carexpert.ai",
+      "doctorId": "usr-doc-3",
+      "doctorName": "Dr. Aris Thorne",
+      "doctorSpecialization": "Dermatology",
+      "hospitalName": "Bayview Community Health Institute",
+      "date": "2026-07-26",
+      "timeSlot": "01:30 PM",
+      "status": "Completed",
+      "reason": "Skin rash on right forearm",
+      "symptoms": "Itching and redness for 4 days",
+      "notes": "Prescribed topical hydrocortisone cream.",
+      "fee": 120,
+      "createdAt": "2026-07-24T13:19:17.986Z"
+    },
+    {
+      "id": "apt-3",
+      "patientId": "usr-pat-2",
+      "patientName": "Emily Davis",
+      "patientEmail": "emily.davis@example.com",
+      "doctorId": "usr-doc-2",
+      "doctorName": "Dr. Sarah Jenkins",
+      "doctorSpecialization": "Neurology",
+      "hospitalName": "St. Jude Heart & General Hospital",
+      "date": "2026-07-31",
+      "timeSlot": "11:30 AM",
+      "status": "Pending",
+      "reason": "Severe throbbing migraine with aura",
+      "symptoms": "Light sensitivity, nausea, temporal headache",
+      "fee": 160,
+      "createdAt": "2026-07-29T13:19:17.986Z"
+    }
+  ],
+  "medicalRecords": [
+    {
+      "id": "rec-1",
+      "patientId": "usr-pat-1",
+      "title": "Lipid Panel & Complete Blood Count (CBC)",
+      "type": "Lab Test",
+      "fileName": "CBC_Lipid_Panel_Report_2026.pdf",
+      "uploadedAt": "2026-07-19T13:19:17.986Z",
+      "doctorNotes": "Cholesterol slightly elevated at 210 mg/dL. Triglycerides within normal limits."
+    },
+    {
+      "id": "rec-2",
+      "patientId": "usr-pat-1",
+      "title": "Chest X-Ray Digital Scan",
+      "type": "X-Ray",
+      "fileName": "Chest_XRay_PA_View.png",
+      "uploadedAt": "2026-07-04T13:19:17.986Z",
+      "doctorNotes": "Lungs clear. Normal cardiac shadow."
+    }
+  ],
+  "prescriptions": [
+    {
+      "id": "rx-1",
+      "appointmentId": "apt-2",
+      "patientId": "usr-pat-1",
+      "patientName": "Alex Johnson",
+      "doctorId": "usr-doc-3",
+      "doctorName": "Dr. Aris Thorne",
+      "date": "2026-07-26",
+      "diagnosis": "Contact Dermatitis",
+      "medicines": [
+        {
+          "name": "Hydrocortisone 1% Cream",
+          "dosage": "Apply thin layer",
+          "frequency": "Twice daily",
+          "duration": "7 days"
+        },
+        {
+          "name": "Cetirizine 10mg",
+          "dosage": "1 tablet",
+          "frequency": "Once daily at bedtime",
+          "duration": "5 days"
+        }
+      ],
+      "advice": "Avoid harsh soaps and hot water on affected forearm. Drink plenty of hydration.",
+      "followUpDate": "2026-08-05"
+    }
+  ],
+  "hospitals": [
+    {
+      "id": "hosp-1",
+      "name": "AIIMS (All India Institute of Medical Sciences)",
+      "address": "Sri Aurobindo Marg, Ansari Nagar",
+      "city": "New Delhi",
+      "phone": "+91 11 2658 8500",
+      "email": "contact@aiims.edu.in",
+      "specialties": [
+        "Cardiology",
+        "Neurology",
+        "Oncology",
+        "Emergency Medicine",
+        "Pediatrics"
+      ],
+      "rating": 4.9,
+      "emergencyAvailable": true,
+      "latitude": 28.5672,
+      "longitude": 77.21,
+      "totalBeds": 2478,
+      "availableBeds": 185,
+      "image": "https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?w=800&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "hosp-2",
+      "name": "Fortis Escorts Heart Institute",
+      "address": "Okhla Road, Opp. Holy Family Hospital",
+      "city": "New Delhi",
+      "phone": "+91 11 4713 5000",
+      "email": "fehi.delhi@fortishealthcare.com",
+      "specialties": [
+        "Cardiology",
+        "Cardiothoracic Surgery",
+        "Pediatric Cardiology"
+      ],
+      "rating": 4.8,
+      "emergencyAvailable": true,
+      "latitude": 28.5606,
+      "longitude": 77.2731,
+      "totalBeds": 310,
+      "availableBeds": 42,
+      "image": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "hosp-3",
+      "name": "Tata Memorial Hospital & Cancer Center",
+      "address": "Dr. E Borges Road, Parel",
+      "city": "Mumbai",
+      "phone": "+91 22 2417 7000",
+      "email": "info@tmc.gov.in",
+      "specialties": [
+        "Oncology",
+        "Surgical Oncology",
+        "Radiation Therapy",
+        "Hematology"
+      ],
+      "rating": 4.9,
+      "emergencyAvailable": true,
+      "latitude": 19.0033,
+      "longitude": 72.8427,
+      "totalBeds": 700,
+      "availableBeds": 88,
+      "image": "https://images.unsplash.com/photo-1512678080530-7760d81faba6?w=800&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "hosp-4",
+      "name": "Lilavati Hospital & Research Centre",
+      "address": "A-791, Bandra Reclamation, Bandra West",
+      "city": "Mumbai",
+      "phone": "+91 22 2675 1000",
+      "email": "info@lilavatihospital.com",
+      "specialties": [
+        "Cardiology",
+        "Neurology",
+        "Orthopedics",
+        "Gastroenterology"
+      ],
+      "rating": 4.8,
+      "emergencyAvailable": true,
+      "latitude": 19.0518,
+      "longitude": 72.8285,
+      "totalBeds": 323,
+      "availableBeds": 35,
+      "image": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=800&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "hosp-5",
+      "name": "Apollo Hospitals, Greams Road",
+      "address": "21 Greams Lane, Off Greams Road",
+      "city": "Chennai",
+      "phone": "+91 44 2829 0200",
+      "email": "info@apollohospitals.com",
+      "specialties": [
+        "Cardiology",
+        "Organ Transplants",
+        "Neurology",
+        "Oncology"
+      ],
+      "rating": 4.9,
+      "emergencyAvailable": true,
+      "latitude": 13.0601,
+      "longitude": 80.2514,
+      "totalBeds": 560,
+      "availableBeds": 64,
+      "image": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "hosp-6",
+      "name": "Manipal Hospital, Old Airport Road",
+      "address": "98 HAL Old Airport Road, Kodihalli",
+      "city": "Bengaluru",
+      "phone": "+91 80 2502 4444",
+      "email": "info@manipalhospitals.com",
+      "specialties": [
+        "Cardiology",
+        "Orthopedics",
+        "Neurology",
+        "Pediatrics"
+      ],
+      "rating": 4.8,
+      "emergencyAvailable": true,
+      "latitude": 12.9583,
+      "longitude": 77.6484,
+      "totalBeds": 600,
+      "availableBeds": 72,
+      "image": "https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?w=800&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "hosp-7",
+      "name": "Narayana Health City",
+      "address": "258/A, Bommasandra Industrial Area, Hosur Road",
+      "city": "Bengaluru",
+      "phone": "+91 80 7122 2222",
+      "email": "info.nhc@narayanahealth.org",
+      "specialties": [
+        "Cardiology",
+        "Cardiac Surgery",
+        "Oncology",
+        "Nephrology"
+      ],
+      "rating": 4.9,
+      "emergencyAvailable": true,
+      "latitude": 12.8123,
+      "longitude": 77.6936,
+      "totalBeds": 1000,
+      "availableBeds": 140,
+      "image": "https://images.unsplash.com/photo-1512678080530-7760d81faba6?w=800&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "hosp-8",
+      "name": "Yashoda Hospitals, Somajiguda",
+      "address": "Raj Bhavan Road, Somajiguda",
+      "city": "Hyderabad",
+      "phone": "+91 40 4567 4567",
+      "email": "contact@yashodahospitals.com",
+      "specialties": [
+        "Neurology",
+        "Pulmonology",
+        "Gastroenterology",
+        "Emergency Medicine"
+      ],
+      "rating": 4.8,
+      "emergencyAvailable": true,
+      "latitude": 17.4262,
+      "longitude": 78.4578,
+      "totalBeds": 500,
+      "availableBeds": 58,
+      "image": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=800&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "hosp-9",
+      "name": "AMRI Hospitals, Dhakuria",
+      "address": "P-238, Block A, Scheme XLIX, Dhakuria",
+      "city": "Kolkata",
+      "phone": "+91 33 6680 0000",
+      "email": "kolkata@amrihospitals.in",
+      "specialties": [
+        "Cardiology",
+        "General Medicine",
+        "Dermatology",
+        "Neurology"
+      ],
+      "rating": 4.7,
+      "emergencyAvailable": true,
+      "latitude": 22.5085,
+      "longitude": 88.3697,
+      "totalBeds": 300,
+      "availableBeds": 45,
+      "image": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "hosp-10",
+      "name": "Ruby Hall Clinic",
+      "address": "40 Sassoon Road, Central Railway Colony, Sangamvadi",
+      "city": "Pune",
+      "phone": "+91 20 6645 5100",
+      "email": "info@rubyhall.com",
+      "specialties": [
+        "Cardiology",
+        "Oncology",
+        "Organ Transplants",
+        "Neurology"
+      ],
+      "rating": 4.8,
+      "emergencyAvailable": true,
+      "latitude": 18.5326,
+      "longitude": 73.8763,
+      "totalBeds": 550,
+      "availableBeds": 68,
+      "image": "https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?w=800&auto=format&fit=crop&q=80"
+    }
+  ],
+  "aiReports": [
+    {
+      "id": "air-1",
+      "patientId": "usr-pat-1",
+      "patientName": "Alex Johnson",
+      "age": 34,
+      "gender": "Male",
+      "symptoms": [
+        "Chest tightness",
+        "Shortness of breath after climbing stairs",
+        "Mild fatigue"
+      ],
+      "medicalHistory": "Mild asthma, hypertension history",
+      "existingDiseases": "Seasonal Allergies",
+      "possibleDiseases": [
+        {
+          "name": "Angina Pectoris / Mild Cardiac Ischemia",
+          "probability": "65%",
+          "description": "Reduced blood flow to heart muscle during physical effort."
+        },
+        {
+          "name": "Exercise-Induced Bronchospasm",
+          "probability": "25%",
+          "description": "Airway constriction triggered by exertion given asthma background."
+        }
+      ],
+      "riskLevel": "Moderate",
+      "recommendedSpecialist": "Cardiologist",
+      "recommendedTests": [
+        "12-Lead Electrocardiogram (ECG)",
+        "Treadmill Stress Test",
+        "Echocardiogram"
+      ],
+      "basicPrecautions": [
+        "Avoid sudden strenuous physical exhaustion",
+        "Monitor blood pressure twice daily",
+        "Keep emergency inhaler accessible"
+      ],
+      "disclaimer": "This AI Diagnosis Report is for preliminary informational guidance only and does NOT constitute a binding medical diagnosis. Please consult a qualified doctor immediately.",
+      "createdAt": "2026-07-27T13:19:17.986Z"
+    }
+  ],
+  "specializations": [
+    {
+      "id": "spec-1",
+      "name": "Cardiology",
+      "description": "Heart and cardiovascular system care",
+      "iconName": "Heart",
+      "doctorsCount": 4
+    },
+    {
+      "id": "spec-2",
+      "name": "Neurology",
+      "description": "Brain, spinal cord, and nerve disorders",
+      "iconName": "Brain",
+      "doctorsCount": 3
+    },
+    {
+      "id": "spec-3",
+      "name": "Dermatology",
+      "description": "Skin, hair, and nail treatments",
+      "iconName": "Sparkles",
+      "doctorsCount": 3
+    },
+    {
+      "id": "spec-4",
+      "name": "Pediatrics",
+      "description": "Child and adolescent healthcare",
+      "iconName": "Baby",
+      "doctorsCount": 3
+    },
+    {
+      "id": "spec-5",
+      "name": "Orthopedics",
+      "description": "Bones, joints, ligaments, and tendons",
+      "iconName": "Activity",
+      "doctorsCount": 2
+    },
+    {
+      "id": "spec-6",
+      "name": "General Medicine",
+      "description": "Comprehensive primary care and diagnosis",
+      "iconName": "Stethoscope",
+      "doctorsCount": 5
+    },
+    {
+      "id": "spec-7",
+      "name": "Oncology",
+      "description": "Cancer prevention, diagnosis, and treatment",
+      "iconName": "ShieldAlert",
+      "doctorsCount": 2
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1",
+      "userId": "usr-pat-1",
+      "title": "Appointment Confirmed",
+      "message": "Dr. Marcus Thorne has accepted your cardiology appointment for tomorrow at 10:30 AM.",
+      "type": "appointment",
+      "isRead": false,
+      "createdAt": "2026-07-29T13:19:17.986Z"
+    },
+    {
+      "id": "notif-2",
+      "userId": "usr-doc-1",
+      "title": "New Appointment Booking",
+      "message": "Alex Johnson booked a consultation for tomorrow at 10:30 AM.",
+      "type": "appointment",
+      "isRead": true,
+      "createdAt": "2026-07-29T13:19:17.986Z"
+    }
+  ],
+  "activityLogs": [
+    {
+      "id": "log-1785331969771-rn9q",
+      "user": "Alex Johnson",
+      "action": "User Login",
+      "details": "User logged into platform",
+      "timestamp": "2026-07-29T13:32:49.771Z"
+    },
+    {
+      "id": "log-1785331968762-qgz2",
+      "user": "Alex Johnson",
+      "action": "User Login",
+      "details": "User logged into platform",
+      "timestamp": "2026-07-29T13:32:48.762Z"
+    },
+    {
+      "id": "log-1785331641694-10bs",
+      "user": "Alex Johnson",
+      "action": "User Login",
+      "details": "User logged into platform",
+      "timestamp": "2026-07-29T13:27:21.694Z"
+    },
+    {
+      "id": "log-1785331641689-uzar",
+      "user": "Alex Johnson",
+      "action": "User Login",
+      "details": "User logged into platform",
+      "timestamp": "2026-07-29T13:27:21.689Z"
+    },
+    {
+      "id": "log-1",
+      "user": "Alex Johnson",
+      "action": "Booked Appointment",
+      "details": "Booked consultation with Dr. Marcus Thorne",
+      "timestamp": "2026-07-29T13:19:17.986Z"
+    },
+    {
+      "id": "log-2",
+      "user": "Dr. Marcus Thorne",
+      "action": "Accepted Appointment",
+      "details": "Accepted appointment apt-1",
+      "timestamp": "2026-07-29T13:19:17.986Z"
+    },
+    {
+      "id": "log-3",
+      "user": "Admin",
+      "action": "System Init",
+      "details": "CareXpertAI system database bootstrapped",
+      "timestamp": "2026-07-29T13:19:17.986Z"
+    }
+  ]
+}
