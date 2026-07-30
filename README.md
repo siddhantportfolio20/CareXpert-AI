@@ -1,20 +1,43 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# CareExpertAI
 
-# Run and deploy your AI Studio app
+CareExpertAI is a full-stack AI-powered healthcare platform that helps users book appointments, manage medical records, receive AI-assisted health insights, and connect with healthcare professionals.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/23a8cc30-afd2-4ed3-8bc9-4c7064284c79
+- AI-powered symptom analysis
+- Appointment booking
+- User authentication
+- Medical record management
+- Responsive UI
+- Secure REST APIs
 
-## Run Locally
+## Tech Stack
 
-**Prerequisites:**  Node.js
+- React
+- Vite
+- Node.js
+- Express.js
+- MongoDB
+- Gemini API
 
+## Installation
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```bash
+npm install
+```
+
+Create a `.env.local` file:
+
+```env
+GEMINI_API_KEY=your_api_key
+```
+
+Run the project:
+
+```bash
+npm run dev
+```
+
+## License
+
+MIT
